@@ -20,4 +20,5 @@
 
 	$donationAPI->generate_form("../index.php", $username, "null@gmail.com", "http://lynxaa.info/visionary/donate.php");
 	$donationAPI->automatically_submit("DONATION");
+	echo 'test';
 ?>
